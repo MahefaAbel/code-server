@@ -53,6 +53,11 @@ code-server.
 We also have an in-depth [setup and
 configuration](https://coder.com/docs/code-server/v3.11.1/guide) guide.
 
+### Installation by Mahefa
+Configuration :
+nano ~/.config/code-server/config.yaml
+
+
 ## TLS and authentication (beta)
 
 To add TLS and authentication out of the box, use [code-server --link](https://coder.com/docs/code-server/v3.11.1/link).
