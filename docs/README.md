@@ -56,7 +56,7 @@ configuration](https://coder.com/docs/code-server/v3.11.1/guide) guide.
 ### Installation by Mahefa
 Configuration :
 nano ~/.config/code-server/config.yaml
-
+systemctl restart code-server@$USER
 
 ## TLS and authentication (beta)
 
