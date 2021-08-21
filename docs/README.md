@@ -55,11 +55,11 @@ We also have an in-depth [setup and
 configuration](https://coder.com/docs/code-server/v3.11.1/guide) guide.
 
 ### Installation by Mahefa
-Configuration :
 
     nano ~/.config/code-server/config.yaml
     systemctl restart code-server@$USER
     ssh -N -L 8081:127.0.0.1:8081 debian@164.132.59.15
+    http://127.0.0.1:8081/
 
 ## TLS and authentication (beta)
 
