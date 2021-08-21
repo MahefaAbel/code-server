@@ -59,6 +59,7 @@ Configuration :
 
     nano ~/.config/code-server/config.yaml
     systemctl restart code-server@$USER
+    ssh -N -L 8081:127.0.0.1:8081 debian@164.132.59.15
 
 ## TLS and authentication (beta)
 
